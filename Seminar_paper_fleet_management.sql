@@ -1,3 +1,9 @@
+DROP DATABASE IF EXISTS green_fleet_management;
+CREATE DATABASE green_fleet_management;
+USE green_fleet_management;
+
+
+
 DROP TABLE IF EXISTS powertrain;
 CREATE TABLE powertrain (
   id SERIAL PRIMARY KEY,
